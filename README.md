@@ -16,12 +16,12 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
+- [x] (2pt) User can view the app on various device sizes and orientations.
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
 
-<img src="http://g.recordit.co/xzxWV6ifNd.gif" width=250><br>
+<img src="http://g.recordit.co/wQAekg6Xx8.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
