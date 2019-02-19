@@ -18,19 +18,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="kG4-7h-A4k">
-                                <rect key="frame" x="138" y="205" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="kG4-7h-A4k">
+                                <rect key="frame" x="138" y="218" width="138" height="139"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZpZ-MR-k8W">
-                                <rect key="frame" x="169" y="394" width="76" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZpZ-MR-k8W">
+                                <rect key="frame" x="178" y="376" width="58" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kG4-7h-A4k" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HgE-9I-uR0"/>
+                            <constraint firstItem="kG4-7h-A4k" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Nqm-fi-hLA"/>
+                            <constraint firstItem="ZpZ-MR-k8W" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="T5t-Z5-DXf"/>
+                            <constraint firstItem="kG4-7h-A4k" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bsw-Uw-2dm"/>
+                            <constraint firstItem="ZpZ-MR-k8W" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="32" id="cUy-Pc-ItR"/>
+                            <constraint firstItem="kG4-7h-A4k" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-80.5" id="w64-BE-z5F"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
